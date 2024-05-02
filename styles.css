@@ -1,7 +1,3 @@
-/** {
-  border: solid;
-}*/
-
 body {
   min-height: 100vh;
   display: flex;
@@ -86,7 +82,7 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   font-family: 'Roboto', sans-serif;
-  padding: 5px 20px;
+  padding: 5px 30px;
   border: 0;
   border-radius: 6px;
   font-size: 18px;
@@ -108,8 +104,8 @@ button {
 .s2 {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 h2 {
@@ -155,6 +151,7 @@ h2 {
   color: #1F2937;
   font-weight: 300;
   padding-top: 80px;
+  margin: 0px;
 }
 
 .quoter {
@@ -163,10 +160,64 @@ h2 {
   color: #1F2937;
   font-size: 18px;
   text-align: right;
+  margin: 0px;
 }
 
 .quote,
 .quoter {
   padding-right: 100px;
   padding-left: 100px;
+}
+
+.blue-box {
+  background-color: #3882F6;
+  margin: 0;
+  display: flex;
+  border-radius: 6px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  align-items: center;
+  gap: 10px;
+}
+
+.s4-text-container {
+  flex-grow: 1;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+  margin-left: 10%;
+}
+
+.button-box {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 10%;
+}
+
+h4 {
+  margin: 0;
+  color:#F9FAF8;
+  font-size: 24px;
+}
+
+.sign-up-text {
+  margin: 0px;
+  color:#E5E7EB;
+  font-size: 18px;
+}
+
+.bottom-sign-up {
+  border: solid #F9FAF8;
+  border-width: 3px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
